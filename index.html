@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h2>Real-time Character Counter</h2>
-        <textarea id="textarea" class="textarea" placeholder="Please write your text here..." maxlength="100"></textarea>
+        <h3>Test before you tweet</h3>
+        <textarea id="textarea" class="textarea" placeholder="Please write your text here..." maxlength="140"></textarea>
         <div class="counter-container">
-            <p>Total Characters: <span class="total-counter" id="total-counter">30</span></p>
-            <p>Remaining: <span class="remaining-counter" id="remaining-counter">70</span></p>
+            <p>
+                Total Characters: <span class="total-counter" id="total-counter"></span>
+            </p>
+            <p>
+                Remaining: <span class="remaining-counter" id="remaining-counter"></span>
+            </p>
         </div>
-    </div>
+    </div> 
     <script src="index.js"></script>
 </body>
 </html>
